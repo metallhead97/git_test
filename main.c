@@ -3,6 +3,7 @@
 
 int main()
 {
+	
 	int a = 0;
 	int b = 0;
     char arr[] = {'1', '2'};
@@ -15,5 +16,16 @@ int main()
 		
     }
     printf("%d", value);
+	
+	if(a > b){
+		printf("%d", a);
+	}
+	else{
+		
+		printf("%d", b);
+	}
+		
     return 0;
+	
+	
 }
